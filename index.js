@@ -7,9 +7,9 @@ var imgsrc="dice"+rn2+".png";
 document.querySelectorAll("img")[1].setAttribute("src", imgsrc);
 
 if(rn1>rn2)
-    document.querySelector("h1").innerHTML="Prajwal wins";
+    document.querySelector("h1").innerHTML="Player 1 wins";
 else if(rn1<rn2)
-    document.querySelector("h1").innerHTML="Sinchana wins";
+    document.querySelector("h1").innerHTML="Player 2 wins";
 else
     document.querySelector("h1").innerHTML="Draw";
 
